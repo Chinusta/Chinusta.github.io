@@ -1,0 +1,33 @@
+:root {
+  --yashil: #15803d;
+  --sariq: #ffd60a;
+  --qora: #111111;
+  --fon: #f5f5f2;
+  --kulrang: #4a4a4a;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--fon);
+  color: var(--qora);
+  line-height: 1.6;
+}
+header {
+  background: var(--sariq);
+  padding: 14px 16px;
+}
+.logo { font-weight: 800; font-size: 20px; max-width: 760px; margin: 0 auto; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 19px; margin: 28px 0 6px; color: var(--yashil); }
+a { color: var(--yashil); font-weight: 600; }
+.kichik { font-size: 14px; color: var(--kulrang); }
+.havolalar { padding-left: 18px; font-size: 18px; }
+.quti {
+  background: #fff;
+  border: 1px solid #e3e1da;
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin: 12px 0;
+}
